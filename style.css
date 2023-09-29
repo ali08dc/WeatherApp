@@ -7,9 +7,10 @@ body {
   background: rgba(31, 12, 12, 0.333);
   font-family: "Open Sans", sans-serif;
   background-image: url("https://pixabay.com/api/?key=27956023-0196cfe6c2fdbdee038d2ff1f&q=city+famous&image_type=photo&pretty=true");
-  font-size: 120%;
-  background-repeat: no-repeat;
   background-size: cover;
+  background-repeat: no-repeat;
+  box-sizing: border-box;
+  font-size: 120%;
 }
 .card {
   background: rgba(29, 39, 37, 0.7);
